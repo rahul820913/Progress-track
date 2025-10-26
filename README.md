@@ -44,8 +44,8 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd visualforces
+    git clone https://github.com/rahul820913/Progress-track.git
+    cd Progress-track
     ```
 2.  **Install dependencies:**
     ```bash
