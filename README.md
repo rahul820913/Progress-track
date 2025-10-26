@@ -1,101 +1,96 @@
-VisualForces: Visualize Your Codeforces Journey
+# Progress-Track: Visualize Your Codeforces Journey
 
-VisualForces is a modern web application designed for competitive programmers who use Codeforces. It provides a user-friendly interface to visualize performance statistics and track progress over time. Simply enter a Codeforces username to generate a personalized dashboard.
+<!-- Badges: Replace placeholders with actual URLs/services -->
 
-Key Features:
+**Progress-Track** is a modern web application designed for competitive programmers who use Codeforces. It provides a user-friendly interface to visualize performance statistics and track progress over time. Simply enter a Codeforces username to generate a personalized dashboard.
 
-User Profile Display: Shows essential Codeforces profile information (Handle, Picture, Ranks, Ratings) with color-coding based on rank.
+![VisualForces Welcome Screen](<Screenshot 2025-10-27 004645.png>) <!-- Replace with actual image URL -->
+*Welcome screen prompting user input.*
 
-Detailed Statistics Card: Presents key numerical insights (Contests attended, Submissions, Problems Tried/Solved, Best/Worst Rank, Max Rating Changes).
+---
 
-Interactive Visualizations:
+## Key Features:
 
-Rating Changes: Line chart of rating fluctuations over contest history.
+* **User Profile Display:** Shows essential Codeforces profile information (Handle, Picture, Ranks, Ratings) with color-coding based on rank.
+* **Detailed Statistics Card:** Presents key numerical insights (Contests attended, Submissions, Problems Tried/Solved, Best/Worst Rank, Max Rating Changes).
+* **Interactive Visualizations:**
+    * **Rating Changes & Distribution:** See how ratings have changed over time and the distribution of problems solved by rating.
+        ![Rating Changes and Distribution Charts](<Screenshot 2025-10-27 004714.png>) <!-- Replace with actual image URL -->
+    * **Problem Topics & Levels:** Understand strengths and weaknesses through charts showing solved problems by topic (pie chart) and difficulty level (bar chart).
+        ![Problem Levels and Topics Charts](<Screenshot 2025-10-27 004720.png>) <!-- Replace with actual image URL -->
+    * **Submission Activity:** Visualize coding consistency with a GitHub-style calendar heatmap of submission frequency over the past year.
+        ![Submission Activity Heatmap](<image_81de38.png>) <!-- Replace with actual image URL -->
+* **Modern & Responsive Design:** Built with React and styled using Tailwind CSS, featuring a sleek dark theme and responsiveness across devices.
+* **User Interaction:** Includes a clear search bar to look up users and a contact form.
 
-Rating Distribution: Bar chart of problems solved by rating.
+---
 
-Problem Topics/Tags: Pie chart of solved problems by topic.
+## Tech Stack
 
-Problem Levels: Bar chart of solved problems by index/difficulty.
+* **Frontend:** React, Tailwind CSS
+* **Charts:** Recharts
+* **Data Source:** Codeforces API
 
-Submission Activity: GitHub-style calendar heatmap of submission frequency over the past year.
+---
 
-Modern & Responsive Design: Built with React and styled using Tailwind CSS, featuring a sleek dark theme and responsiveness across devices.
+## Getting Started
 
-User Interaction: Includes a search bar to look up users and a contact form.
+### Prerequisites
 
-Tech Stack
+* Node.js (v16 or later recommended)
+* npm or yarn
 
-Frontend: React, Tailwind CSS
+### Installation
 
-Charts: Recharts
+1.  **Clone the repository:**
+    ```bash
+    git clone <your-repository-url>
+    cd visualforces
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-Data Source: Codeforces API
+### Running the Application
 
-Getting Started
+1.  **Start the development server:**
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+2.  Open your browser and navigate to `http://localhost:3000` (or the port specified in your console).
 
-Prerequisites
+---
 
-Node.js (v16 or later recommended)
+## Usage
 
-npm or yarn
+1.  Once the application is running, you will see a search bar.
+2.  Enter a valid Codeforces username (handle) into the search bar.
+3.  Press Enter or click the search icon.
+4.  The dashboard will load and display the profile information, statistics, and visualizations for the specified user.
 
-Installation
+---
 
-Clone the repository:
-
-git clone <your-repository-url>
-cd visualforces
-
-
-Install dependencies:
-
-npm install
-# or
-yarn install
-
-
-Running the Application
-
-Start the development server:
-
-npm start
-# or
-yarn start
-
-
-Open your browser and navigate to http://localhost:3000 (or the port specified in your console).
-
-Usage
-
-Once the application is running, you will see a search bar.
-
-Enter a valid Codeforces username (handle) into the search bar.
-
-Press Enter or click the search icon.
-
-The dashboard will load and display the profile information, statistics, and visualizations for the specified user.
-
-Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-Fork the repository.
-
-Create a new branch (git checkout -b feature/your-feature-name).
-
-Make your changes.
-
-Commit your changes (git commit -m 'Add some feature').
-
-Push to the branch (git push origin feature/your-feature-name).
-
-Open a Pull Request.
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/your-feature-name`).
+3.  Make your changes.
+4.  Commit your changes (`git commit -m 'Add some feature'`).
+5.  Push to the branch (`git push origin feature/your-feature-name`).
+6.  Open a Pull Request.
 
 Please ensure your code follows the project's coding style and includes tests where applicable.
 
-License
+---
 
-This project is licensed under the MIT License - see the LICENSE file (if one exists) for details.
+## License
 
-This README provides a basic template. Feel free to add more details about specific components, API usage, deployment, etc.
+---
+*This README provides a basic template. Feel free to add more details about specific components, API usage, deployment, etc.*
