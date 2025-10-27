@@ -6,7 +6,7 @@
 
 ---
 
-**Live Demo:**[https://progresstrack.app](https://progresstrack-lw6zjtf5t-rahul820913s-projects.vercel.app)
+**Live Demo:**[https://progresstrack.app](https://progresstrack.vercel.app/)
 
 
 ![VisualForces Welcome Screen](<public/Screenshot 2025-10-27 004645.png>) <!-- Replace with actual image URL -->
