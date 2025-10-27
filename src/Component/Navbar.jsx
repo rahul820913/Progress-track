@@ -39,40 +39,40 @@ const Navbar = () => {
 
           <div className="flex items-center space-x-2">
             <ProgressTrackLogo />
-          <a href="#/" className="text-2xl font-bold transition-transform duration-300 hover:scale-105">
+          <Link to="/" className="text-2xl font-bold transition-transform duration-300 hover:scale-105">
             Progress-Track
-          </a>
+          </Link>
           </div>
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-8"> {/* Increased spacing */}
             <li>
               {/* Added animated underline effect */}
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="text-gray-300 hover:text-white transition-colors duration-300 font-medium relative group py-2"
               >
                 Home
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="text-gray-300 hover:text-white transition-colors duration-300 font-medium relative group py-2"
               >
                 Contact
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/future"
+              <Link
+                to="/future"
                 className="text-gray-300 hover:text-white transition-colors duration-300 font-medium relative group py-2"
               >
                 Future
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
-              </a>
+              </Link>
             </li>
           </ul>
 
