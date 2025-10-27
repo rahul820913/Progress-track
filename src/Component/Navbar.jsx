@@ -90,8 +90,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {/* Added opacity and improved transition for a fade/slide effect */}
         <div 
           className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
             isOpen ? 'max-h-screen pb-4 opacity-100' : 'max-h-0 opacity-0'
@@ -99,32 +97,31 @@ const Navbar = () => {
         >
           <ul className="mt-2 space-y-2 text-center">
             <li>
-              {/* Added hover:bg-gray-700 for better tap feedback */}
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="block py-3 px-4 rounded-md hover:bg-gray-800 transition-colors duration-200 font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="block py-3 px-4 rounded-md hover:bg-gray-800 transition-colors duration-200 font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/future"
+              <Link
+                to="/future"
                 className="block py-3 px-4 rounded-md hover:bg-gray-800 transition-colors duration-200 font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Future
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
