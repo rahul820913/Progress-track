@@ -7,7 +7,7 @@
 ---
 
 **Live Demo:**[https://progresstrack.app](https://progresstrack-lw6zjtf5t-rahul820913s-projects.vercel.app)
-_Replace with your actual Vercel URL_
+
 
 ![VisualForces Welcome Screen](<public/Screenshot 2025-10-27 004645.png>) <!-- Replace with actual image URL -->
 *Welcome screen prompting user input.*
@@ -20,11 +20,11 @@ _Replace with your actual Vercel URL_
 * **Detailed Statistics Card:** Presents key numerical insights (Contests attended, Submissions, Problems Tried/Solved, Best/Worst Rank, Max Rating Changes).
 * **Interactive Visualizations:**
     * **Rating Changes & Distribution:** See how ratings have changed over time and the distribution of problems solved by rating.
-        ![Rating Changes and Distribution Charts](<public/Screenshot 2025-10-27 004714.png>) <!-- Replace with actual image URL -->
+        ![Rating Changes and Distribution Charts](<public/Screenshot 2025-10-27 004714.png>) 
     * **Problem Topics & Levels:** Understand strengths and weaknesses through charts showing solved problems by topic (pie chart) and difficulty level (bar chart).
-        ![Problem Levels and Topics Charts](<public/Screenshot 2025-10-27 004720.png>) <!-- Replace with actual image URL -->
+        ![Problem Levels and Topics Charts](<public/Screenshot 2025-10-27 004720.png>) 
     * **Submission Activity:** Visualize coding consistency with a GitHub-style calendar heatmap of submission frequency over the past year.
-        ![Submission Activity Heatmap](<public/Screenshot 2025-10-27 004725.png>) <!-- Replace with actual image URL -->
+        ![Submission Activity Heatmap](<public/Screenshot 2025-10-27 004725.png>) 
 * **Modern & Responsive Design:** Built with React and styled using Tailwind CSS, featuring a sleek dark theme and responsiveness across devices.
 * **User Interaction:** Includes a clear search bar to look up users and a contact form.
 
