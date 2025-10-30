@@ -54,7 +54,7 @@ const Footer = () => {
           </a>
           {/* GitHub SVG Icon */}
           <a
-            href="https://github.com/rahul820913"
+            href="https://github.com/rahul820913/Progress-track"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Rahul Singh Meena on GitHub"
